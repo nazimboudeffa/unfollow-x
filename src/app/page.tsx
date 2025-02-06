@@ -18,7 +18,11 @@ export default function Home() {
       </p>
     </div>
     <NavBar />
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen">
+    <h1 className="text-3xl sm:text-4xl text-center font-bold">
+      Organise Massive Unfollow Campaigns
+    </h1>
+    <div className="flex flex-col items-center justify-center mt-5 py-2">
       <form onSubmit={handleSubmit} className="flex flex-col gap-4 items-center sm:items-start">
         <label htmlFor="input" className="text-lg sm:text-xl">
           Explain why, how and who you want to unfollow
@@ -42,6 +46,7 @@ export default function Home() {
           Submit
         </button>
       </form>
+    </div>
     </div>
     </>
   );
