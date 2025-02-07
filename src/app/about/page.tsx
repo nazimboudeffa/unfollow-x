@@ -1,5 +1,4 @@
 import Alert from "../components/Alert";
-import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 export default function About() {
@@ -12,7 +11,6 @@ export default function About() {
         <p>I just want to explain you something.</p>
         <p>Leave the influencers in their world and stop following them.</p>
       </main>
-      <Footer />
     </>
     )
 }

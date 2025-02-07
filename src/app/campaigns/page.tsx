@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Alert from "../components/Alert";
-import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 export default function Campaigns() {
