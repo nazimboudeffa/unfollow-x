@@ -2,6 +2,7 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Alert from "./components/Alert";
 
 export default function Home() {
   const [inputValue, setInputValue] = useState("");
@@ -18,11 +19,7 @@ export default function Home() {
 
   return (
     <>
-    <div className="bg-indigo-600 px-4 py-3 text-white">
-      <p className="text-center text-sm font-medium">
-      This site is under construction because we wonder to have a better Internet.
-      </p>
-    </div>
+    <Alert />
     <NavBar />
     <div className="flex flex-col items-center justify-center min-h-screen">
       <h1 className="text-3xl sm:text-4xl text-center font-bold">
