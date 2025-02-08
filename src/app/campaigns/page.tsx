@@ -12,17 +12,17 @@ export default function Campaigns() {
             <ul className="mt-3">
                 <li>
                     <Link className="hover:underline cursor-pointer" href="https://x.com/elonmusk">
-                        Click and unfollow <span className="text-red-500">Elon Musk</span>
+                        Click and unfollow <span className="text-red-500">Elon Musk</span> on X
                     </Link>
                 </li>
                 <li>
                     <Link className="hover:underline cursor-pointer" href="https://x.com/CNEWS">
-                        Click and unfollow <span className="text-red-500">CNews</span>
+                        Click and unfollow <span className="text-red-500">CNews</span> on X
                     </Link>
                 </li>
                 <li>
                     <Link className="hover:underline cursor-pointer" href="https://x.com/ZemmourEric">
-                        Click and unfollow <span className="text-red-500">Eric Zemmour</span>
+                        Click and unfollow <span className="text-red-500">Eric Zemmour</span> on X
                     </Link>
                 </li>
             </ul>
