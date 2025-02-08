@@ -8,8 +8,7 @@ export default function Campaigns() {
         <Alert />
         <NavBar />
         <div className="m-auto my-10 max-w-5xl space-y-10 px-3">
-            <h1 className="font-bold">Unfollow X is a joke to celebrate 21 years of Facebook</h1>
-            <p className="mt-3">But if you really want to develop it, please edit the corresponding file on GitHub</p>
+            <h1 className="text-2xl font-bold">Campaigns</h1>
             <ul className="mt-3">
                 <li>
                     <Link className="hover:underline cursor-pointer" href="https://x.com/elonmusk">
